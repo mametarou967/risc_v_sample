@@ -1,38 +1,48 @@
 module risc_v_top_tb1();
 
 // 上位変数
-reg clk;
-reg rst;
-reg [3:0] sw;
-wire [6:0] hex0;
-wire [6:0] hex1;
-wire [6:0] hex2;
-wire [6:0] hex3;
-wire [6:0] hex4;
-wire [6:0] hex5;
+reg CLK;
+reg RST;
+reg  [3:0] SW;
+wire [6:0] HEX0;
+wire [31:0] PC;
+wire [31:0] INST_DATA;
+wire [31:0] REGISTER_READ_DATA1;
+wire [31:0] REGISTER_READ_DATA2;
+wire [31:0] IMM_EXTR;
+wire [31:0] ALU_RES;
+wire [31:0] DATA_READ_DATA;
+wire REG_WRITE;
+wire IMM_SRC;
+wire MEM_WRITE;
 
-RISC_V_TOP risc_v_top_unit(
-	.CLK(clk),
-	.RST(rst),
-	.SW(sw),
-	.HEX0(hex0),
-	.HEX1(hex1),
-	.HEX2(hex2),
-	.HEX3(hex3),
-	.HEX4(hex4),
-	.HEX5(hex5));
+RISC_V_UNDER_TOP risc_v_under_top_unit(
+ .CLK(CLK),
+ .RST(RST),
+ .SW(SW),
+ .HEX0(HEX0),
+ .PC(PC),
+ .INST_DATA(INST_DATA),
+ .REGISTER_READ_DATA1(REGISTER_READ_DATA1),
+ .REGISTER_READ_DATA2(REGISTER_READ_DATA2),
+ .IMM_EXTR(IMM_EXTR),
+ .ALU_RES(ALU_RES),
+ .DATA_READ_DATA(DATA_READ_DATA),
+ .REG_WRITE(REG_WRITE),
+ .IMM_SRC(IMM_SRC),
+ .MEM_WRITE(MEM_WRITE));
 
-initial sw = 0;
+initial SW= 0;
 
 initial begin
-    rst = 1;
-# 7500 rst = 0;
+    RST = 1;
+# 7500 RST = 0;
 end
 
 initial begin 
-    clk = 0;
+    CLK = 0;
 end
 always #5000
-    clk <= ~clk;
+    CLK <= ~CLK;
 
 endmodule
