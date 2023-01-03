@@ -8,36 +8,123 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/17.0
-vINST_MEMORY
-Z0 !s110 1672414098
+vALU
+Z0 !s110 1672726404
 !i10b 1
-!s100 M[M6jI:;PZGhEQ:zTUm>[1
-IdWWK[HXb]X_<i[TcZ`zDV1
+!s100 iL`1@F1O94F4g?C=9d___2
+IT:GWgad<LAIVAK3Hf8`YT0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Repository/risc_v_sample/modelsim
-w1672385845
-8C:/Repository/risc_v_sample/HDL/inst_memory.v
-FC:/Repository/risc_v_sample/HDL/inst_memory.v
+w1672650320
+8C:/Repository/risc_v_sample/HDL/alu.v
+FC:/Repository/risc_v_sample/HDL/alu.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1672414097.000000
-!s107 C:/Repository/risc_v_sample/HDL/inst_memory.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/inst_memory.v|
+Z4 !s108 1672726404.000000
+!s107 C:/Repository/risc_v_sample/HDL/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/alu.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
+n@a@l@u
+vDATA_MEMORY
+R0
+!i10b 1
+!s100 GHlGChQG4bKUj;`UR92V11
+I_F5E?O[G5=c5YVEN0M<RY0
+R1
+R2
+w1672726390
+8C:/Repository/risc_v_sample/HDL/data_memory.v
+FC:/Repository/risc_v_sample/HDL/data_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Repository/risc_v_sample/HDL/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/data_memory.v|
+!i113 1
+R5
+R6
+n@d@a@t@a_@m@e@m@o@r@y
+vEXTENDER
+R0
+!i10b 1
+!s100 f=W>hMbBAaSW[;NMIe^YP1
+IPY^zf4KmU_`IZN2Ai=ZF;3
+R1
+R2
+w1672649712
+8C:/Repository/risc_v_sample/HDL/Extender.v
+FC:/Repository/risc_v_sample/HDL/Extender.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Repository/risc_v_sample/HDL/Extender.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/Extender.v|
+!i113 1
+R5
+R6
+n@e@x@t@e@n@d@e@r
+vINST_MEMORY
+Z7 !s110 1672726403
+!i10b 1
+!s100 zN9FdLNMIz2cGhOSOOM5c2
+IMP0kXL:?UmezMdIM1mlN[0
+R1
+R2
+w1672668622
+8C:/Repository/risc_v_sample/HDL/inst_memory.v
+FC:/Repository/risc_v_sample/HDL/inst_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1672726403.000000
+!s107 C:/Repository/risc_v_sample/HDL/inst_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/inst_memory.v|
+!i113 1
+R5
+R6
 n@i@n@s@t_@m@e@m@o@r@y
+vinst_memory_tb
+!s110 1672668268
+!i10b 1
+!s100 _YYISo1<DFRTAQgYSI[Oh2
+IDT9k_VNl?^RjzNPYNT8ZH2
+R1
+R2
+w1672668250
+8C:/Repository/risc_v_sample/modelsim/inst_memory_tb.v
+FC:/Repository/risc_v_sample/modelsim/inst_memory_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1672668268.000000
+!s107 C:/Repository/risc_v_sample/modelsim/inst_memory_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/modelsim/inst_memory_tb.v|
+!i113 1
+R5
+R6
 vPC
 R0
 !i10b 1
-!s100 fM=Pi`cL1:YdH4^cmeSRP3
-I;V;^SbM9h3YJTe0L<N3Eb2
+!s100 F9<?WBKCMSAHQNN0HN5<<3
+IN6Kjkb@8L5T_0n4SH>`EM3
 R1
 R2
-w1672413254
+w1672652254
 8C:/Repository/risc_v_sample/HDL/pc.v
 FC:/Repository/risc_v_sample/HDL/pc.v
 L0 1
@@ -45,21 +132,43 @@ R3
 r1
 !s85 0
 31
-Z7 !s108 1672414098.000000
+R4
 !s107 C:/Repository/risc_v_sample/HDL/pc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/pc.v|
 !i113 1
 R5
 R6
 n@p@c
+vREGISTER_FILE
+!s110 1672726406
+!i10b 1
+!s100 >;dKW@eC7Oc=79N>Y=SQ:0
+I][TK[BSO0KIeiTY0?8]:23
+R1
+R2
+w1672651207
+8C:/Repository/risc_v_sample/HDL/register_file.v
+FC:/Repository/risc_v_sample/HDL/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1672726406.000000
+!s107 C:/Repository/risc_v_sample/HDL/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/register_file.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r_@f@i@l@e
 vRISC_V_TOP
 R0
 !i10b 1
-!s100 ^nJjNRUo_J;lgL;o8<QdK0
-Im6GOcZInEkI1Klh]_?7g:3
+!s100 gghgNWl2cCVBG5PJ2>9AX3
+I^<FTQaAKSonEU9DC6zTSN0
 R1
 R2
-w1672414004
+w1672652053
 8C:/Repository/risc_v_sample/HDL/risc_v_top.v
 FC:/Repository/risc_v_sample/HDL/risc_v_top.v
 L0 6
@@ -67,7 +176,7 @@ R3
 r1
 !s85 0
 31
-R7
+R4
 !s107 C:/Repository/risc_v_sample/HDL/risc_v_top.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/risc_v_top.v|
 !i113 1
@@ -75,13 +184,13 @@ R5
 R6
 n@r@i@s@c_@v_@t@o@p
 vrisc_v_top_tb1
-!s110 1672414097
+R7
 !i10b 1
-!s100 bK<lF>XHMj1[[5aXE:VJE0
-I0F>0DeL^S@Be=`IR3o?]T0
+!s100 73;]5IJ>_9V?UgmSHP1nE2
+ImgO1DChOGaWkQoi1kdn?D2
 R1
 R2
-w1672414092
+w1672652122
 8C:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v
 FC:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v
 L0 1
@@ -89,7 +198,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v|
 !i113 1
