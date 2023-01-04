@@ -17,7 +17,11 @@ module RISC_V_UNDER_TOP (
 	 output		 [31:0]  DATA_READ_DATA,
 	 output      REG_WRITE,
 	 output      IMM_SRC,
-	 output      MEM_WRITE
+	 output      MEM_WRITE,
+	 output		 [6:0] OPECODE,
+	 output		 [4:0] REGISTER_ADDRESS1,
+	 output		 [4:0] REGISTER_ADDRESS2,
+	 output		 [4:0] REGISTER_ADDRESS3
 );
 
 wire [31:0] pc;
@@ -42,6 +46,12 @@ assign DATA_READ_DATA = data_read_data;
 assign REG_WRITE = reg_write;
 assign IMM_SRC = imm_src;
 assign MEM_WRITE = mem_write;
+
+assign OPECODE = inst_data[6:0];
+assign REGISTER_ADDRESS1 = inst_data[19:15];
+assign REGISTER_ADDRESS2 = inst_data[24:20];
+assign REGISTER_ADDRESS3 = inst_data[11:7];
+
 
 
 /* 7セグメント表示デコーダ              */

@@ -12,7 +12,7 @@ always @ (posedge CLK)
   if(MEM_WRITE)
     ram[ADDRESS[13:2]] <= WRITE_DATA;
 
-assign DATA = ram[ADDRESS[13:2]];
+assign READ_DATA = ram[ADDRESS[13:2]];
 
 initial begin
 	ram[12'h800] = 32'd10;
