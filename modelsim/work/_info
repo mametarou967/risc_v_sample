@@ -9,13 +9,13 @@ z2
 cModel Technology
 dC:/intelFPGA/17.0
 vALU
-Z0 !s110 1672810171
+Z0 !s110 1672908670
 !i10b 1
-!s100 iL`1@F1O94F4g?C=9d___2
-IT:GWgad<LAIVAK3Hf8`YT0
+!s100 k6d6R26V0QUT`IVUb`CNf2
+IY<dk:;WnoogSF59g9Rl<K1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/Repository/risc_v_sample/modelsim
-w1672650320
+w1672841506
 8C:/Repository/risc_v_sample/HDL/alu.v
 FC:/Repository/risc_v_sample/HDL/alu.v
 L0 1
@@ -23,21 +23,65 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1672810171.000000
+Z4 !s108 1672908670.000000
 !s107 C:/Repository/risc_v_sample/HDL/alu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/alu.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 n@a@l@u
-vCONTROL_UNIT
-Z7 !s110 1672810172
+vALU_RESULT_SELECTOR
+Z7 !s110 1672908671
 !i10b 1
-!s100 XOhT6_1HLN^dB_Qaa544f1
-IJ7UF0biEKk5i934aj7_2D3
+!s100 Y=NbURY>zNoGXZ>MJFgTY0
+IBM<]FZGAUAO2<NhkR;TSe3
 R1
 R2
-w1672810162
+w1672842727
+8C:/Repository/risc_v_sample/HDL/alu_result_selector.v
+FC:/Repository/risc_v_sample/HDL/alu_result_selector.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1672908671.000000
+!s107 C:/Repository/risc_v_sample/HDL/alu_result_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/alu_result_selector.v|
+!i113 1
+R5
+R6
+n@a@l@u_@r@e@s@u@l@t_@s@e@l@e@c@t@o@r
+vALU_SRC_SELECTOR
+R7
+!i10b 1
+!s100 lAAeHRzMdAoXBHfM1PnPD0
+IM2<^Cj26;2_Y4]<HNoflV1
+R1
+R2
+w1672842397
+8C:/Repository/risc_v_sample/HDL/alu_src_selector.v
+FC:/Repository/risc_v_sample/HDL/alu_src_selector.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Repository/risc_v_sample/HDL/alu_src_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/alu_src_selector.v|
+!i113 1
+R5
+R6
+n@a@l@u_@s@r@c_@s@e@l@e@c@t@o@r
+vCONTROL_UNIT
+R7
+!i10b 1
+!s100 >D:_KDgD7`e6MK2oCKfTP0
+IT8GBLmOQ2o674JDLmnmka0
+R1
+R2
+w1672842086
 8C:/Repository/risc_v_sample/HDL/control_unit.v
 FC:/Repository/risc_v_sample/HDL/control_unit.v
 L0 1
@@ -45,7 +89,7 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1672810172.000000
+R8
 !s107 C:/Repository/risc_v_sample/HDL/control_unit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/control_unit.v|
 !i113 1
@@ -75,7 +119,7 @@ R5
 R6
 n@d@a@t@a_@m@e@m@o@r@y
 vEXTENDER
-R0
+R7
 !i10b 1
 !s100 a8Z1FR9G3R:RS2Ajd1Nmj2
 IBnQ?R6=iO575AiOk7J`nS1
@@ -89,7 +133,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Repository/risc_v_sample/HDL/Extender.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/Extender.v|
 !i113 1
@@ -176,13 +220,35 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Repository/risc_v_sample/HDL/register_file.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/register_file.v|
 !i113 1
 R5
 R6
 n@r@e@g@i@s@t@e@r_@f@i@l@e
+vREGISTER_WRITE_DATA_SELECTOR
+!s110 1672908672
+!i10b 1
+!s100 cBN0iN_J<>o;JM700Nb043
+IL9^V_8?gk4IRz[Lm9j[Yz0
+R1
+R2
+w1672842484
+8C:/Repository/risc_v_sample/HDL/register_write_data_selector.v
+FC:/Repository/risc_v_sample/HDL/register_write_data_selector.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1672908672.000000
+!s107 C:/Repository/risc_v_sample/HDL/register_write_data_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/HDL/register_write_data_selector.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r_@w@r@i@t@e_@d@a@t@a_@s@e@l@e@c@t@o@r
 vRISC_V_TOP
 !s110 1672726404
 !i10b 1
@@ -208,11 +274,11 @@ n@r@i@s@c_@v_@t@o@p
 vrisc_v_top_tb1
 R0
 !i10b 1
-!s100 7@FAJJI]oXRBKcB`E33Nl0
-I6X``>O:Tk2XX>D:E=k7BX2
+!s100 Ij]@2ecHTKCGzzoBCVO=B2
+IlM4^aOH8GD`_hLgGBjLMm1
 R1
 R2
-w1672809852
+w1672908498
 8C:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v
 FC:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v
 L0 1
@@ -220,7 +286,7 @@ R3
 r1
 !s85 0
 31
-!s108 1672810170.000000
+R4
 !s107 C:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Repository/risc_v_sample/modelsim/risc_v_top_tb1.v|
 !i113 1
@@ -271,11 +337,11 @@ R6
 vRISC_V_UNDER_TOP
 R7
 !i10b 1
-!s100 l31A`]60JzP3FhUdIL?9E3
-I7Nm@:2dK=:G]@8Aj@lKZo1
+!s100 4eNTLabzC9_?4_7Ed``A;1
+I[Ea>Ib5SVc^66cd]g6^IS2
 R1
 R2
-w1672809720
+w1672908667
 8C:/Repository/risc_v_sample/HDL/risc_v_under_top.v
 FC:/Repository/risc_v_sample/HDL/risc_v_under_top.v
 L0 6

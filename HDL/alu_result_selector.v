@@ -1,0 +1,12 @@
+module ALU_RESULT_SELECTOR(
+	input ALU_RESULT_SEL,
+	input [31:0] REGISTERE_READ_DATA,
+	input [31:0] EXTENDED_IMM_DATA,
+	output [31:0] ALU_SRC_B
+);
+
+assign ALU_SRC_B = (ALU_RESULT_SEL == 1'b0) ?
+	REGISTERE_READ_DATA :
+	EXTENDED_IMM_DATA;
+
+endmodule
